@@ -1,0 +1,14 @@
+{
+  "repo": "little-freddie",
+  "feeds": [
+    {
+      "source": "https://www.littlefreddie.com",
+      "feed_url": "https://www.littlefreddie.com",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
