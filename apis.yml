@@ -1,8 +1,26 @@
 aid: little-freddie
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/little-freddie.png
 name: Little Freddie
-description: 'Little Freddie is a company surfaced as a portfolio company of hillhouse and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Little Freddie (Sunny Fields Enterprise Ltd) is a UK-based organic baby
+  and toddler food brand producing nutritious weaning products for infants from six
+  months, developed with a paediatric dietitian to meet UK and EU baby-food guidelines.
+  Its ranges include Greek-style yoghurts, Simply Fruit purees, Full of Veg meals,
+  dairy-free alternatives, home-style meals and omega-3 "Good for Brains" options,
+  sold through major UK retailers including Tesco, Sainsbury''s, Asda, Morrisons, Co-op,
+  Ocado, Booths and Spar. The company also runs a Parenting Hub with weaning, nutrition
+  and parenting content. Surfaced as a portfolio company of Hillhouse; this profile
+  currently exposes no public developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/little-freddie/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Baby Food
+- Organic Food
+- Food and Beverage
+- CPG
+- Retail
+- Parenting
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.littlefreddie.com
+- type: Blog
+  url: https://www.littlefreddie.com/parenting-hub
+- type: Support
+  url: https://www.littlefreddie.com/contact
+- type: PrivacyPolicy
+  url: https://www.littlefreddie.com/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.littlefreddie.com/legal/terms-and-conditions
+- type: DomainSecurity
+  url: security/little-freddie-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
